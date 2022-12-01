@@ -12,6 +12,3 @@ with open("input.txt", 'r') as file:
             buffer = 0
 
 print(max_num)
-
-        
-    
