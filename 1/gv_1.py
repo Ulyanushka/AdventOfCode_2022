@@ -8,5 +8,5 @@ with open("input.txt", "r") as file:
     print(max(elves))
 
 with open("input.txt", "r", encoding="utf-8") as file:
-  elves = [sum(map(int, i.split("\n"))) for i in file.read().split("\n\n")]
-  print(sum(sorted(elves)[-3:]))
+    elves = [sum(map(int, i.split("\n"))) for i in file.read().split("\n\n")]
+    print(sum(sorted(elves)[-3:]))
