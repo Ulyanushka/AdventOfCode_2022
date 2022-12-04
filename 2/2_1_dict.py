@@ -14,4 +14,3 @@ with open("input.txt", "r") as file:
             score += rounds.count(v) * (key + i + 1)
 
     print(score)
-    
