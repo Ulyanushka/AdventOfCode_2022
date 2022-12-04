@@ -1,6 +1,6 @@
 import pandas as pd
 
-df_rules =pd.DataFrame(
+df_rules = pd.DataFrame(
     {
     'A': [3, 6, 0],
     'B': [0, 3, 6],

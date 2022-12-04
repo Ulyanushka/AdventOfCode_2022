@@ -11,7 +11,7 @@ with open("input.txt", "r") as file:
     
     for key, value in rules.items():
         for i, v in enumerate(value):
-            score += rounds.count(v) * (key+ i +1)
+            score += rounds.count(v) * (key + i + 1)
 
     print(score)
     
